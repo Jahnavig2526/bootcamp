@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body{
+    width:100%;
+    height:100%;
+    background-color:rgb(80, 74, 159);
+}
+.box {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-content: center;
+    text-align: center;
+    align-items:flex-start;
+    background-color: rgb(4, 161, 228);
+    }
+    .div{
+        justify-content: center;
+        align-items:center;
+        display:flex;
+    }
+
+.amazon{
+    background-color:rgb(219, 119, 205);
+    width: 1350px;
+    font-size:300%;
+    padding:50px;
+    flex: 50%;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.03);
+  border-radius: 2px;
+
+
+}
+.myntra{
+    
+    background-color: rgb(207, 100, 191);
+    font-size:300%;
+    width:1350px;
+    padding:50px;
+    flex:100%;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.03);
+  border-radius: 2px;
+}
+.flipkart{
+    background-color: rgb(200, 83, 178);
+    font-size:300%;
+    width:1350px;
+    padding:50px;
+    flex: 100%;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.03);
+  border-radius: 2px;
+}
+    </style>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web page</title>
+    <link rel="STYLESHEET" href ="style.css"/>
+
+</head>
+<body>
+    <h1>create a flex container</h1>
+    <div class="box">
+       
+   <center><i><div class="item amazon">amazon</div><br></i></center>
+    <center><i> <div class="item myntra">myntra</div><br></i></center>
+    <center><i> <div class="item flipkart">flipkart</div><br></i></center>
+    </div>
+
+</body>
+</html>
